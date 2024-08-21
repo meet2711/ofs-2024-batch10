@@ -1,0 +1,27 @@
+<!--
+ Copyright (c) 2014, 2024, Oracle and/or its affiliates.
+ Licensed under The Universal Permissive License (UPL), Version 1.0
+ as shown at https://oss.oracle.com/licenses/upl/
+ -->
+<!--
+ Copyright (c) 2014, 2024, Oracle and/or its affiliates.
+ Licensed under The Universal Permissive License (UPL), Version 1.0
+ as shown at https://oss.oracle.com/licenses/upl/
+ -->
+<div class="oj-hybrid-padding">
+  <h3>Enter name: </h3>
+  <oj-c-form-layout max-columns="1" direction="column">
+    <oj-c-input-text id="itdis" label-hint="Enter name" value="{{name}}">
+    </oj-c-input-text>
+    <h3>Enter password: </h3>
+    <oj-c-input-password value="" label-hint="Enter Password"></oj-c-input-password>
+    <!-- <oj-c-input-date-text label-hint="Enter date"></oj-c-input-date-text> -->
+    <h3>Enter date of birth: </h3>
+    <oj-input-date-time raw-value="{{date}}" label-hint="Enter Date"></oj-input-date-time>
+    <h3>Select Gender: </h3>
+    <oj-c-radioset id="enabledRadioset" value="laptop" options="[[laptopOptions]]">
+    </oj-c-radioset>
+    <oj-c-checkbox id="enabledCheckboxOn" value="true">Do you have passport</oj-c-checkbox><br>
+    <oj-c-button id="chroming_button5" chroming="danger" label="Danger"></oj-c-button>
+  </oj-c-form-layout>
+</div>
